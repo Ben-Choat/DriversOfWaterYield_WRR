@@ -40,13 +40,13 @@ from GAGESii_Class import *
 # define which clustering method is being combined. This variable 
 # will be used for collecting data from the appropriate directory as well as
 # naming the combined file
-clust_meth = 'Anth_0' # 'Class' # 'None' # 'AggEcoregion', 'None', 
+clust_meth = 'Class' # 'Class' # 'None' # 'AggEcoregion', 'None', 
 
 # AggEcoregion regions:
 # CntlPlains, EastHghlnds, MxWdShld, NorthEast, SECstPlain, SEPlains, 
 # WestMnts, WestPlains, WestXeric 
 # define which region to work with
-region =  '16' # 'CntlPlains' # 'Non-ref' # 'All'
+region =  'Non-ref' # 'CntlPlains' # 'Non-ref' # 'All'
              
 # define time scale working with. This vcombtrainariable will be used to read and
 # write data from and to the correct directories
