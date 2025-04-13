@@ -138,10 +138,7 @@ if not os.path.exists(file_out):
     # will be used for collecting data from the appropriate directory as well as
     # naming the combined file
     # clust_meth =  'AggEcoregion' # 'Class' # 'None' # 'AggEcoregion', 'None', 
-    clust_meths = ['None', 'Class', 'AggEcoregion', 
-            'All_0', 'All_1', 'All_2', 'Anth_0', 'Anth_1', 
-            'CAMELS', 'HLR', 'Nat_0', 'Nat_1', 'Nat_2',
-            'Nat_3', 'Nat_4']
+    clust_meths = ['None', 'Class', 'AggEcoregion']
 
     # define dict to hold cluster methods: cluster
     df_regions = {}
@@ -460,7 +457,6 @@ if not os.path.exists(dir_figs):
 # subset data to df for plotting
 ts = 'annual'
 cm = 'AggEcoregion'
-# cm = 'Anth_1'
 # cm = 'None'
 # reg = 'WestMnts'
 reg = 'SECstPlain'

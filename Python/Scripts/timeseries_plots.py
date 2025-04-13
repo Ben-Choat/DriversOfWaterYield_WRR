@@ -36,9 +36,7 @@ from GAGESii_Class import *
 # define which clustering method is being combined. This variable 
 # will be used for collecting data from the appropriate directory as well as
 # naming the combined file
-clust_meth = 'HLR_0' # 'Class' # 'None' # 'AggEcoregion', 'None', 
- # All_0, All_1, All_2, Anth_0, Anth_1, CAMELS, HLR, Nat_0, Nat_1, Nat_2,
- # Nat_3, Nat_4
+clust_meth = 'AggEcoregion' # 'Class' # 'None' # 'AggEcoregion'
 
 # AggEcoregion regions:
 # CntlPlains, EastHghlnds, MxWdShld, NorthEast, SECstPlain, SEPlains, 

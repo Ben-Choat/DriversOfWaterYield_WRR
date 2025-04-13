@@ -22,10 +22,7 @@ import os
 # define which clustering method is being combined. This variable 
 # will be used for collecting data from the appropriate directory as well as
 # naming the combined file
-clust_meth = ['None', 'Class', 'AggEcoregion', 
-        'All_0', 'All_1', 'All_2', 'Anth_0', 'Anth_1', 
-        'CAMELS', 'HLR', 'Nat_0', 'Nat_1', 'Nat_2',
-        'Nat_3', 'Nat_4']
+clust_meth = ['None', 'Class', 'AggEcoregion']
 
 # define time scale working with. This variable will be used to read and
 # write data from and to the correct directories

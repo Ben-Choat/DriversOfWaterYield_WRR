@@ -333,14 +333,10 @@ def load_data_fun(
         # work
         df_expl = pd.merge(df_expl, cid_in, left_on = 'STAID', right_on = 'STAID').drop(
             columns = cid_in.columns[1:len(cid_in.columns)]
-            # ['Class', 'AggEcoregion', 'ECO3_Site', 'USDA_LRR_Site',
-            #             'LAT_GAGE', 'LNG_GAGE', 'HUC02', 'CAMELS']
             )
         # train
         df_trainexpl = pd.merge(df_trainexpl, cidtrain_in, left_on = 'STAID', right_on = 'STAID').drop(
             columns = cidtrain_in.columns[1:len(cidtrain_in.columns)]
-            # ['Class', 'AggEcoregion', 'ECO3_Site', 'USDA_LRR_Site',
-            #             'LAT_GAGE', 'LNG_GAGE', 'HUC02', 'CAMELS']
             )
 
         # ID dataframes

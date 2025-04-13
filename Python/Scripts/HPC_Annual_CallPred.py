@@ -24,7 +24,6 @@ import sys
 # this variable is only used for keeping track fo results
 # clust_meth_in =   'AggEcoregion' #'None' #
 clust_meth_in =  sys.argv[1] # 'AggEcoregion' #
-# clust_meth_in = 'Anth_0'
 
 # list of possible AggEcoregions:
 # 'All

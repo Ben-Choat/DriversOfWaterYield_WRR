@@ -461,7 +461,6 @@ else:
 ##############
 
 
-# clust_meth_in = 'Nat_3'
 # model_in = 'XGBoost'
 # metric_in = 'KGE'
 

@@ -53,8 +53,6 @@ dir_figs = 'C:/Users/bench/OneDrive/ML_DriversOfWY/GAGESii_ANNstuff/Data_Out/Fig
 part_in = 'valnit'
 
 # cluster method to use
-# ['None', 'Class', 'AggEcoregion', 'All_0', 'All_1', 'All_2', 'Anth_0', 'Anth_1', 
-#         'CAMELS', 'HLR', 'Nat_0', 'Nat_1', 'Nat_2', 'Nat_3', 'Nat_4']
 # clust_meth_in = ['AggEcoregion']
 clust_meth_in = ['None', 'Class', 'AggEcoregion']
 # which model to calc shaps for
@@ -761,7 +759,6 @@ df_shap_monthly = df_shap_monthly.query("train_val == @part_in")
 # take mean by grouping approach
 df_shap_mannual = df_shap_mannual.groupby('Region').mean().reset_index()
 
-# clust_meth_in = 'Nat_3'
 # model_in = 'XGBoost'
 # metric_in = 'KGE'
 
@@ -1119,7 +1116,6 @@ else:
 ##############
 
 
-# clust_meth_in = 'Nat_3'
 # model_in = 'XGBoost'
 # metric_in = 'KGE'
 

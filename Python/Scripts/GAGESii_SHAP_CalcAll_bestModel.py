@@ -37,14 +37,6 @@ import os
 # clustering methods
 clust_meths = ['None', 'Class', 'AggEcoregion']
 
-# clust_meths = ['None', 'Class', 'AggEcoregion', 
-#         'All_0', 'All_1', 'All_2', 'Anth_0', 'Anth_1', 
-#         'CAMELS', 'HLR', 'Nat_0', 'Nat_1', 'Nat_2',
-#         'Nat_3', 'Nat_4']
-
-# clust_meths = ['Nat_3']
-
-# clust_meth = ['Anth_0'] # ,'Anth_0', 'Nat_0']
 
 # read in ID.csv file to get unique clusters under each method
 df_ID = pd.read_csv(
